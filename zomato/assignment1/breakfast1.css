@@ -1,0 +1,138 @@
+body{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: #192f60
+}
+
+#navigation_bar{
+    background-color: rgba(226, 28, 28, 0.966);
+    height: 50px;
+}
+.navigation_buttons{
+    display: inline-block;  
+}
+
+.navigation_buttons > a{
+    color: black;
+    text-decoration: none;   
+    position: absolute;
+    font-size: large;
+}
+
+#log_in_button{
+    right: 20%;
+}
+
+#sign_up_button{
+    top: 11px;
+    border: 1.3px solid rgba(255, 255, 255, 0.63);
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    right: 2%;
+}
+
+#refresh_button{
+    left: 5%;
+}
+
+#breakfast_place{
+    position: absolute;
+    top: 45px;
+    left: 70px;
+}
+
+.filters_results{
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    padding: 10px;
+    
+    
+}
+
+#filters{
+    width: 17%;
+    left: 7%;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 3px;
+}
+
+.filters_items{
+    margin: 0px;
+}
+
+#filters_label{
+    margin-bottom: 10%;
+}
+
+#search_label{
+    margin-bottom: 10%;
+}
+#location{
+    padding: 10px;
+    width: 100%;
+    -webkit-appearance: none;
+}
+
+#cuisine_box{
+    margin-top: 10%;
+}
+
+#cuisine_label{
+    margin-bottom: 5%;
+}
+
+#costfortwo_box{
+    margin-top: 10%;
+}
+
+#costfortwo_label{
+    margin-bottom: 5%;
+} 
+
+#sort_box{
+    margin-top: 10%;
+}
+
+#sort_label{
+    margin-bottom: 5% ;
+}
+
+#results{
+    left: 31%;
+    right: 10%;
+}
+
+#results_items1, #results_items2{
+    padding: 20px;
+    display: flex;
+    margin-bottom: 5%;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 3px;
+}
+
+
+#results_items_image_box1, #results_items_image_box2{
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+}
+
+#results_items_image_box1 > img, #results_items_image_box2 > img{
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+
+.contents_box1_items, .contents_box2_items{
+    margin: 0px;
+}
+
+#contents_box1, #contents_box2{
+    margin-left: 10%;
+}
