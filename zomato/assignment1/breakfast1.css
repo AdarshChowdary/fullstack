@@ -40,8 +40,8 @@ body{
 
 #breakfast_place{
     position: absolute;
-    top: 45px;
-    left: 70px;
+    top: 7%;
+    left: 5%;
 }
 
 .filters_results{
@@ -49,8 +49,6 @@ body{
     position: absolute;
     top: 20%;
     padding: 10px;
-    
-    
 }
 
 #filters{
@@ -65,7 +63,8 @@ body{
 }
 
 #filters_label{
-    margin-bottom: 10%;
+    margin-bottom: 7%;
+    
 }
 
 #search_label{
@@ -77,34 +76,19 @@ body{
     -webkit-appearance: none;
 }
 
-#cuisine_box{
+#cuisine_box, #costfortwo_box, #sort_box{
     margin-top: 10%;
 }
 
-#cuisine_label{
+#cuisine_label, #costfortwo_label, #sort_label{
     margin-bottom: 5%;
-}
-
-#costfortwo_box{
-    margin-top: 10%;
-}
-
-#costfortwo_label{
-    margin-bottom: 5%;
-} 
-
-#sort_box{
-    margin-top: 10%;
-}
-
-#sort_label{
-    margin-bottom: 5% ;
 }
 
 #results{
     left: 31%;
     right: 10%;
 }
+
 
 #results_items1, #results_items2{
     padding: 20px;
