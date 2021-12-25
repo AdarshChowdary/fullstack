@@ -24,11 +24,11 @@
 
     <div>
         <h1 id="breakfast_place"> Breakfast Places in Mumbai</>
-    </div><br><br>
+    </div>
     <div id="filters_results_box">
         <div id="filters" class="filters_results">
             <h2 id="filters_label" class="filters_items">Filters</h2>
-            <h3 id="search_label" class="filters_items">Search Location</h3>
+            <h3 id="selectlabel" class="filters_items">Select Location</h3>
             <select id="location" class="filters_items">
                 <option hidden> search for location</option>
                 <option value="Hyderabad">Hyderabad</option>
@@ -45,7 +45,7 @@
                 <input type="checkbox" class="filters_items"> American<br>
                 <input type="checkbox" class="filters_items"> Canadian<br>
             </div>
-            <div id="costfortwo_box">
+            <div id="costfortwo_box" class="filters_items">
                 <h3 id="costfortwo_label" class="filters_items">Cost For Two</h3>
                 <input type="radio" class="filters_items" name="Cuisines" value="Indian" style="margin: 0px;"> Lessthan
                 500<br>
@@ -59,7 +59,7 @@
                 <input type="radio" class="filters_items" name="Cuisines" value="Canadian" style="margin: 0px;"> Above
                 2000<br>
             </div>
-            <div id="sort_box">
+            <div id="sort_box" class="filters_items">
                 <h3 id="sort_label" class="filters_items">Sort</h3>
                 <input type="radio" class="filters_items" name="Sort" value="low_to_high" style="margin: 0px;">Price Low
                 To High<br>
@@ -69,17 +69,16 @@
             </div>
         </div>
         <div id="results" class="filters_results">
-            <h2 style="margin: 0px;">Results</h2>
-            <div id="results_items1">
-                <div class="results_items_childs" id="results_items_image_box1">
-                    <img src="./davide-cantelli-jpkfc5_d-DI-unsplash1.jpg" width="100px" height="100px">
-                </div>
-                <div class="results_items_childs" id="results_items_content_box1">
-                    <div class="contents_box" id="contents_box1">
-                        <h1 id="contents_box1_items_h1" class="contents_box1_items"> The Big Chill Cakery</h1>
-                        <h4 id="contents_box1_items_h3" class="contents_box1_items"> Fort</h4>
-                        <h5 id="contents_box1_items_p" class="contents_box1_items">Lorem ipsum dolor sit, amet
-                            consectetur adipisicing elit ...</h5>
+            <div id="total_results1" class="total_results">
+                <div id="results_items1">
+                    <img src="./davide-cantelli-jpkfc5_d-DI-unsplash1.jpg">
+                    <div class="results_items_childs" id="results_items_content_box1">
+                        <div class="contents_box" id="contents_box1">
+                            <h1 id="contents_box1_items_h1" class="contents_box1_items"> The Big Chill Cakery</h1>
+                            <h4 id="contents_box1_items_h3" class="contents_box1_items"> Fort</h4>
+                            <h5 id="contents_box1_items_p" class="contents_box1_items">Lorem ipsum dolor sit, amet
+                                consectetur adipisicing elit ...</h5>
+                        </div>
                     </div>
                 </div>
                 <div class="about_results" id="about_results1">
@@ -95,16 +94,16 @@
                     </span>
                 </div>
             </div>
-            <div id="results_items2">
-                <div class="results_items_childs" id="results_items_image_box2">
-                    <img src="./davide-cantelli-jpkfc5_d-DI-unsplash1.jpg" width="100px" height="100px">
-                </div>
-                <div class="results_items_childs" id="results_items_content_box2">
-                    <div class="contents_box" id="contents_box2">
-                        <h1 id="contents_box2_items_h1" class="contents_box2_items"> The Big Chill Cakery</h1>
-                        <h4 id="contents_box2_items_h3" class="contents_box2_items"> Fort</h4>
-                        <h5 id="contents_box2_items_h6" class="contents_box2_items">Lorem ipsum dolor sit, amet
-                            consectetur adipisicing elit ...</h5>
+            <div id="total_results2" class="total_results">
+                <div id="results_items2">
+                    <img src="./davide-cantelli-jpkfc5_d-DI-unsplash1.jpg">
+                    <div class="results_items_childs" id="results_items_content_box2">
+                        <div class="contents_box" id="contents_box2">
+                            <h1 id="contents_box2_items_h1" class="contents_box2_items"> The Big Chill Cakery</h1>
+                            <h4 id="contents_box2_items_h3" class="contents_box2_items"> Fort</h4>
+                            <h5 id="contents_box2_items_h6" class="contents_box2_items">Lorem ipsum dolor sit, amet
+                                consectetur adipisicing elit ...</h5>
+                        </div>
                     </div>
                 </div>
                 <div class="about_results" id="about_results2">
@@ -120,6 +119,14 @@
                     </span>
                 </div>
             </div>
+        </div>
+        <div id="next_pages">
+            <a href="?" target="_self">1</a>
+            <a href="?">2</a>
+            <a href="?">3</a>
+            <a href="?">4</a>
+            <a href="?">5</a>
+            <a href="?" t>></a>
         </div>
     </div>
 </body>
